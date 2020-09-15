@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cards UI 2021</title>
+        <meta name="Cards UI & 2021 UI Trends" content="Cards UI & 2021 UI Trends">
+        <meta name="Author" content="Calin Cionca">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style-V2-UI-2021-1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body onscroll="toggleTopBtn()" class="dark">
+        <div id="wrapper">
+            <header class="dark">
+                <div class="logo">
+                    <a href="#" id="home" class="dark">Calin Cionca</a>
+                </div>
+                <nav id="mainMenu" class="dark">
+                    <ul class="mainLinks dark">
+                        <li class="home"><a  href="#" onclick="showPage()" class="dark">HOME</a></li>
+                        <li class="portfolio"><a href="#projects" onclick="showPage()" class="dark">PORTFOLIO</a></li>
+                        <li class="contact"><a href="#contact" onclick="showPage()" class="dark">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div class="barContainer">
+                    <div class="progressBar" id="bar"></div>
+                </div>
+            </header>
+            <main>
+               <h1>CARDS</h1>
+                <section>
+                    <article>
+                        <ul class="info">
+                            <li>I designed and developed this project with the goal of using the Card UI design along with some of the other 2020-2021 UI design trends such as: dark mode, thumb-friendly mobile navigation, smart content load through lazy loading, micro interactions, minimalism (Flat Design), and white space</li>
+                            <li>This Card UI design uses the back of the card and almost doubles the amount of information provided per website space</li>
+                            <li>I used RWD, HTML5, CSS3, Flexbox, and Vanilla JavaScript</li>
+                            <li>Additional projects on <a href="https://github.com/calincionca35" id="projects">GitHub</a>; read <a href="https://www.linkedin.com/in/calin-cionca/" accesskey="l">about</a> me,     and <a id="contact" href="mailto:calincionca35@gmail.com">contact</a> me with any questions or comments</li>
+                        </ul>
+                    </article>
+                    <article class="cardsWrapper">
+                        <div class="card d1">
+                            <div class="inner c1">
+                                <div class="front">
+                                    <div class="frontContent"><img src="images/ariffin-ali-fvmmEVPbUXI-unsplash.jpg" loading="eager" alt="sea shore" /></div>
+                                    <h2>Ocean</h2>
+                                    <button class="moreBtn">More<i class="fa fa-angle-double-right fa-lg"></i></button>
+                                </div>
+                                <div class="back">
+                                    <p class="backContent dark">The content of both the front and the back of each card is costomizable, and the text area on the back of the card is scrollable.<br><br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <button class="frontBtn">Front<i class="fa fa-angle-double-right fa-lg"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card d2">
+                            <div class="inner c2">
+                                <div class="front">
+                                    <div class="frontContent"><img src="images/hammad-siddiqui-Qa8LkEkCSoI-unsplash.jpg" loading="eager" alt="plumeria" /></div>
+                                    <h2>Plumeria</h2>
+                                    <button class="moreBtn">More<i class="fa fa-angle-double-right fa-lg"></i></button>
+                                </div>
+                                <div class="back">                   
+                                    <p class="backContent dark">The content of both the front and the back of each card is costomizable, and the text area on the back of the card is scrollable.<br><br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <button class="frontBtn">Front<i class="fa fa-angle-double-right fa-lg"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card d3">
+                            <div class="inner c3">
+                                <div class="front">
+                                    <div class="frontContent"><img src="images/rocco-stoppoloni-eQUdHUB9pD0-unsplash.jpg" loading="lazy" alt="crescent moon" /></div>
+                                    <h2>Moon</h2>
+                                    <button class="moreBtn">More<i class="fa fa-angle-double-right fa-lg"></i></button>
+                                </div>
+                                <div class="back">
+                                    <p class="backContent dark">The content of both the front and the back of each card is costomizable, and the text area on the back of the card is scrollable.<br><br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <button class="frontBtn">Front<i class="fa fa-angle-double-right fa-lg"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card d4">
+                            <div class="inner c4">
+                                <div class="front">
+                                    <div class="frontContent"><img src="images/deepika-pokhrel-4TNMVt_Mqe0-unsplash.jpg" loading="lazy" alt="clouds" /></div>
+                                    <h2>Clouds</h2>
+                                    <button class="moreBtn">More<i class="fa fa-angle-double-right fa-lg"></i></button>
+                                </div>
+                                <div class="back">
+                                    <p class="backContent dark">The content of both the front and the back of each card is costomizable, and the text area on the back of the card is scrollable.<br><br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                   <button class="frontBtn">Front<i class="fa fa-angle-double-right fa-lg"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card d5">
+                            <div class="inner c5">
+                                <div class="front">
+                                    <div class="frontContent"><img src="images/paul-macallan-YbEL-SEs_Pc-unsplash.jpg" loading="lazy" alt="forest road" /></div>
+                                    <h2>Road</h2>
+                                    <button class="moreBtn">More<i class="fa fa-angle-double-right fa-lg"></i></button>
+                                </div>
+                                <div class="back">
+                                    <p class="backContent dark">The content of both the front and the back of each card is costomizable, and the text area on the back of the card is scrollable.<br><br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <button class="frontBtn">Front<i class="fa fa-angle-double-right fa-lg"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card d6">
+                            <div class="inner c6">
+                                <div class="front">
+                                    <div class="frontContent"><img src="images/senning-luk-8StVRf_zEn4-unsplash.jpg" loading="lazy" alt="sunset" /></div>
+                                    <h2>Sunset</h2>
+                                    <button class="moreBtn">More<i class="fa fa-angle-double-right fa-lg"></i></button>
+                                </div>
+                                <div class="back">
+                                    <p class="backContent dark">The content of both the front and the back of each card is costomizable, and the text area on the back of the card is scrollable.<br><br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <button class="frontBtn">Front<i class="fa fa-angle-double-right fa-lg"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <button id="toTop" onclick="toTop()" title="Go to Top" accesskey="t"><i class="fa fa-chevron-up fa-2x"></i>TOP</button>
+            </main>
+            <footer class="dark">
+               <div class="controls">
+                    <button type="button" accesskey= "m" class="hamburger" onclick="toggleNav()"><i class="fa fa-bars fa-2x"></i>MENU</button>
+                    <button type="button" accesskey="d" class="darkMdBtn" onclick="darkMode()" aria-label="toggle dark mode"><i class="fa fa-adjust fa-lg"></i></button>
+                </div>
+                <ul class="social">
+                    <li><a href="https://www.linkedin.com/in/calin-cionca/" accesskey="l"><i class="fa fa-linkedin fa-lg dark"></i></a></li>
+                    <li><a href="https://github.com/calincionca35" accesskey="g"><i class="fa fa-github fa-lg dark"></i></a></li>
+                </ul>
+                <div class="logo">
+                    <a href="#" class="dark">Calin Cionca</a>
+                </div>
+                <p class="copyRight dark">&copy;  2018- <span id="copyRightYear">  </span> Calin Cionca</p>
+            </footer>
+        </div><!--End Wrapper -->
+        <script src="js/script.js"></script>
+        <noscript>Your browser does not support JavaScript!</noscript>
+    </body>
+</html>
